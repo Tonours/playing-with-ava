@@ -1,0 +1,20 @@
+{
+  "name": "playing-with-ava",
+  "version": "0.0.1",
+  "description": "Playing with Ava testing tool",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "codecov": "^1.0.1",
+    "nyc": "^10.1.2"
+  },
+  "scripts": {
+    "test": "nyc ava",
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+  },
+  "author": "Anthony Guimard",
+  "license": "MIT"
+}
