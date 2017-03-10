@@ -20,7 +20,7 @@ const displayPlayersName = (players = []) => {
  * getPlayersAverageAge - Get players average age
  *
  * @param  {Array}  [players=[]] - Array of Object which represent player
- * @return {[type]} Return a Number which is the age of players
+ * @return {Number} Return a Number which is the age of players
  */
 const getPlayersAverageAge = (players = []) => {
   return players
